@@ -1,0 +1,19 @@
+.works_border{
+     border-top: 3px solid $primary;
+     @include media-breakpoint-up(lg){
+        border-top: none;
+     }
+}
+
+.dark_link{
+   li a{
+    color: $dark;
+   }
+}
+
+.h2-size{
+    font-size: 2.5rem;
+    @include media-breakpoint-up(lg){
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,88 @@
+.banner{
+   background-image: url(../img/首頁/banner/home_mobile.png);
+   background-position: center center;
+   background-size: cover;
+   height: 100vh;
+
+   @include media-breakpoint-up(lg) {
+    background-image: url(../img/首頁/banner/home@2x.png);
+    height: 100vh;
+  }
+}
+
+.daigo-btn{
+    width: 164px;
+    height: 48px;
+    background-color: $white;
+    border: 3px solid $secondary;
+    color: $dark;
+    text-align: center;
+    line-height: 48px;
+    position: fixed;
+    right: 2rem;
+    bottom: 11rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    &::before{
+        content: "";
+         width: 0px;
+         height: 0px;
+         border: 13px solid transparent;
+         border-top-color: $secondary;
+         position: absolute;
+         bottom: -28px;
+         z-index: 1;
+   
+    }
+    &::after{
+        content: "";
+        width: 0px;
+        height: 0px;
+        border: 12px solid transparent;
+        border-top-color: $white;
+        position: absolute;
+        bottom: -24px;
+        z-index: 1;
+    }
+}
+
+
+
+.pic-1{
+    position: fixed;
+    bottom: 0px;
+    right: 3rem;
+    z-index: 1;
+ 
+}
+
+.pic-2{
+    position: fixed;
+    bottom: 0px;
+    right: 3rem;
+    z-index: 1;
+       
+    &:hover{
+        opacity: 0;
+        transition: opacity .1s;
+     }
+}
+
+.service_banner {
+    @include media-breakpoint-up(md) {
+      content: url(../img/服務介紹/banner.png);
+    }
+  }
+
+
+  .service_border{
+   border-top:3px solid $primary;
+   @include media-breakpoint-up(md) {
+    border-top:none;
+   }
+  }
+

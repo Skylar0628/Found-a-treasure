@@ -1,0 +1,59 @@
+.img01{
+    height: 424px;
+    background: url(../img/首頁/card/dog01.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    &:hover{
+        background: url(../img/首頁/card/dog01-hover-1.png) no-repeat ;
+        background-position: center center;
+        background-size: cover;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}
+
+
+.img02{
+    height: 424px;
+    background: url(../img/首頁/card/04.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    &:hover{
+        background: url(../img/首頁/card/02-hover.png) no-repeat ;
+        background-position: center center;
+        background-size: cover;
+     
+    }
+}
+
+.img03{
+    height: 424px;
+    background: url(../img/首頁/card/03.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+    &:hover{
+        background: url(../img/首頁/card/dog03-hover-2.png) no-repeat ;
+        background-position: center center;
+        background-size: cover;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+  
+    }
+}
+
+.card-hover{
+     &:hover{
+        cursor: pointer;
+        .hover-link{
+         color: $primary;
+        }
+     }
+}

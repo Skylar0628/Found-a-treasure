@@ -1,0 +1,9 @@
+nav .nav-link{
+    &:hover, &:active{
+        color: $primary;
+    }
+}
+
+nav {
+    font-family: 'Noto Sans TC', sans-serif;
+}

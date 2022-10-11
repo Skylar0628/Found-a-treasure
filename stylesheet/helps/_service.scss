@@ -1,0 +1,28 @@
+.service_h4{
+    font-family: 'Kalam';
+    font-weight: 800;
+    color: $primary;
+    @include media-breakpoint-up(lg){
+        font-size: 20px;
+    }
+}
+
+.service_h2{
+    font-size: 2.2rem;
+    font-weight: 900;
+
+    @include media-breakpoint-up(lg){
+        font-size: 1.6rem;
+    }
+}
+
+.service_p{    
+
+    font-size: 20px;
+    line-height: 2.5rem;
+    flex-wrap: nowrap;
+    @include media-breakpoint-up(lg){
+        font-size: 16px;
+        line-height: 1.8rem;
+    }
+}

@@ -1,0 +1,10 @@
+
+
+.work-hover{
+   background-color: rgba($color: $dark, $alpha: .5);
+   opacity: 0;
+
+   &:hover{
+    opacity: 1;
+   }
+}
